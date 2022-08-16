@@ -1,2 +1,2 @@
-# yamdb_final
-yamdb_final
+# infra_actions
+Учебный проект для изучения работы GitHub Actions (Яндекс Практикум)
