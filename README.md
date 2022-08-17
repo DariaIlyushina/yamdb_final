@@ -107,3 +107,7 @@ docker-compose exec web python manage.py dumpdata > fixtures.json
 ## Наполнение БД fixtures
 
 docker-compose exec web python manage.py loaddata <fixtures name>.json
+
+## Cтатус вашего workflow.
+
+https://github.com/DariaIlyushina/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
