@@ -4,7 +4,9 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueValidator
 
-from api_yamdb.reviews.models import User, Category, Genre, Title, Review, Comment
+from api_yamdb.reviews.models import (User, Category,
+                                      Genre, Title,
+                                      Review, Comment)
 
 
 class UserSerializer(serializers.ModelSerializer):
