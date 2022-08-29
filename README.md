@@ -110,6 +110,6 @@ docker-compose exec web python manage.py loaddata <fixtures name>.json
 
 ## Cтатус вашего workflow
 
-Ссылка на развёрнутый проет: http://51.250.26.119/admin/
+Ссылка на развёрнутый проект: http://51.250.26.119/admin/
 
 [![Django-app workflow](https://github.com/DariaIlyushina/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/DariaIlyushina/yamdb_final/actions/workflows/yamdb_workflow.yml)
