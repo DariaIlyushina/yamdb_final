@@ -62,7 +62,7 @@ jobs:
         script: |
           sudo docker rm -f $(docker ps -q -a)
           sudo docker rmi -f $(docker image ps -q -a)
-          sudo docker pull dariailyushinad/
+          sudo docker pull dariailyushinad/yamdb_final
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
