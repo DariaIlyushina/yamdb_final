@@ -11,7 +11,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 
-from api_yamdb.reviews.models import Category, Genre, Review, Title, User
+from reviews.models import Category, Genre, Review, Title, User
 from .filter import TitleFilter
 from .mixins import CreateListDestroy
 from .permissions import (OwnerOrModeratorOrAdminOrReadOnly,
